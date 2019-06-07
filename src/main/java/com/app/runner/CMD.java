@@ -7,9 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CMD    implements   CommandLineRunner {
-
 	public void run(String... args) throws Exception {
-
 		System.out.println(Arrays.asList(args));
 
 	} 
